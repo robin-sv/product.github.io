@@ -41,6 +41,7 @@ i {
 
 .circle.left {
   left: -60px;
+  transform: scaleX(-1);
 }
 
 .circle.right {
@@ -106,14 +107,18 @@ i {
   margin-bottom: 30px;
 }
 
+.card {
+  border: none !important;
+}
+
 .card-img-top {
   height: 200px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .footer {
-  background: grey;
+  background: #80808061;
   display: flex;
   align-items: center;
   justify-content: space-between;
